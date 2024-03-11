@@ -1,5 +1,5 @@
 import { ResultSetHeader, RowDataPacket } from 'mysql2';
-import { Comment, UserLevel } from '@sharedTypes/CommentTypes';
+import { Comment, UserLevel } from '@sharedTypes/DBTypes';
 import promisePool from '../lib/db';
 import { MessageResponse } from '@sharedTypes/MessageTypes';
 
